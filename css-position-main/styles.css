@@ -8,11 +8,14 @@
   background-color: orange;
   padding: 20px;
   margin: 20px;
+  position: relative;
+  height: 3000px;
 }
 
 .child-one {
   background-color: green;
-  position: absolute;
+  position: sticky;
+  top: 0px;
 }
 
 .child-two {
